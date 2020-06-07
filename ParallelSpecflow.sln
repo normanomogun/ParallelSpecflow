@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelSpecflowTest", "ParallelSpecflowTest\ParallelSpecflowTest.csproj", "{517CABD5-2174-4EC7-8F17-75569B0F6EA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecuteAutomation", "ExecuteAutomation\ExecuteAutomation.csproj", "{8C8ED7EF-74C9-445B-9653-9DA09371E780}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{517CABD5-2174-4EC7-8F17-75569B0F6EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{517CABD5-2174-4EC7-8F17-75569B0F6EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{517CABD5-2174-4EC7-8F17-75569B0F6EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{517CABD5-2174-4EC7-8F17-75569B0F6EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8ED7EF-74C9-445B-9653-9DA09371E780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8ED7EF-74C9-445B-9653-9DA09371E780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8ED7EF-74C9-445B-9653-9DA09371E780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8ED7EF-74C9-445B-9653-9DA09371E780}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28BE44CD-F64E-4D7B-A961-7774EBF5310E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+{
+  "driverName": "chrome",
+  "url": "http://www.executeautomation.com/demosite/Login.html",
+  "driverMode": "grid",
+
+
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ]
+}
