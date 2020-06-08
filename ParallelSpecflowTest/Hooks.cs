@@ -58,8 +58,9 @@ namespace ParallelSpecflowTest
                 {
                     PlatformName = "windows"
                 };
-                // The remote driver or jar file must be installed on the machine it will be run on else it won't run
 
+                // Java is required on the machine that is going to be used as a hub
+                // The remote driver or jar file must be installed on the machine it will be run on else it won't run
                 _driver = new RemoteWebDriver(new Uri("http://192.168.0.9:4444/wd/hub"), chromeOptions.ToCapabilities());
             }
             
